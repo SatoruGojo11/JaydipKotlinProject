@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".widgets.Constraint_layout_prac">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/design_default_color_secondary"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="29dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="158dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="@string/app_bar"
+            android:textColor="@color/black"
+            android:background="@drawable/gradiant1"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/profile_img"
+        android:layout_width="208dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/closed_eye" />
+
+    <EditText
+        android:id="@+id/user_name_login"
+        android:layout_width="350dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:hint="@string/Username"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/profile_img"
+        app:layout_constraintStart_toStartOf="@+id/profile_img"
+        app:layout_constraintTop_toBottomOf="@+id/profile_img" />
+
+    <EditText
+        android:id="@+id/user_email_login"
+        android:layout_width="350dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:hint="@string/Emailid"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="@+id/user_name_login"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="@+id/user_name_login"
+        app:layout_constraintTop_toBottomOf="@+id/user_name_login" />
+
+    <EditText
+        android:id="@+id/user_pwd_login"
+        android:layout_width="350dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/user_email_login"
+        app:layout_constraintStart_toStartOf="@+id/user_email_login"
+        app:layout_constraintTop_toBottomOf="@+id/user_email_login" />
+
+    <Button
+        android:id="@+id/sign_in_btn"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/signin"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:backgroundTint="@android:color/holo_purple"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_pwd_login" />
+
+    <Button
+        android:id="@+id/sign_up_btn"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="60dp"
+        android:text="@string/signup"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:backgroundTint="@android:color/holo_purple"
+        app:backgroundTintMode="add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_pwd_login" />
+
+    <TextView
+        android:id="@+id/attmpt"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="140dp"
+        android:text="@string/attempt"
+        android:textColor="#F40F0F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_pwd_login" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
