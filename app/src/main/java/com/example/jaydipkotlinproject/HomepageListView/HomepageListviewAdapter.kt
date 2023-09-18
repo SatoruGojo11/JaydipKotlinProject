@@ -36,7 +36,7 @@ class HomepageListviewAdapter(var context: Context, var HomepagedataList: List<H
 
         widgetButton?.setOnClickListener {
 
-            intent = Intent(p2,HomepagedataList[p0].activityclass)
+//            intent = Intent(p2,HomepagedataList[p0].activityclass)
 
         }
         return homepageview!!
