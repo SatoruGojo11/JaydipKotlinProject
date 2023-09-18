@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.Toast
-import com.example.firstkotlinproject.R
+import com.example.jaydipkotlinproject.R
 
 class Image_View_prac : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

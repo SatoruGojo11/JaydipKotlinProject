@@ -7,7 +7,7 @@ import android.widget.AdapterView
 import android.widget.GridView
 import android.widget.Toast
 import com.example.firstkotlinproject.MyAdapter
-import com.example.firstkotlinproject.R
+import com.example.jaydipkotlinproject.R
 
 class Grid_View_prac : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

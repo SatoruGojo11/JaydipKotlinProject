@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import android.widget.ToggleButton
 import androidx.appcompat.widget.SwitchCompat
-import com.example.firstkotlinproject.R
+import com.example.jaydipkotlinproject.R
 
 class Toggle_prac : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

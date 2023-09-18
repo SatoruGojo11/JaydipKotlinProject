@@ -8,7 +8,7 @@ import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.TextView
 import android.widget.Toast
-import com.example.firstkotlinproject.R
+import com.example.jaydipkotlinproject.R
 
 class Radio_prac : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

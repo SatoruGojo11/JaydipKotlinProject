@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
+import com.example.jaydipkotlinproject.R
 import com.squareup.picasso.Picasso
 
 //class MyAdapter(var context: Context, var itemname: Array<String>, var itemimages: Array<String>) :

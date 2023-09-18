@@ -1,3 +1,49 @@
 <resources>
-    <string name="app_name">Jaydip Kotlin Project</string>
+    <string name="app_name">First Kotlin Project</string>
+    <string name="app_bar">App Bar</string>
+    <string name="empty"> </string>
+    <string name="Username">User name</string>
+    <string name="Emailid">Email id</string>
+    <string name="Password">Password</string>
+    <string name="signin">Sign In</string>
+    <string name="signup">Sign Up</string>
+    <string name="click">Click</string>
+    <string name="num">Your number :- 0</string>
+    <string name="login_page">Login Page</string>
+    <string name="attempt">Attempt Left :- 5</string>
+    <string name="sandwich">Grill Sandwich 200/-</string>
+    <string name="pizza">7 Cheese Pizza 280/-</string>
+    <string name="burger">Veg Grill Burger 60/-</string>
+    <string name="Dabeli">Butter Dabeli 25/-</string>
+    <string name="billamount">Your Total Bill Amount is :- 0</string>
+    <string name="billbtn">Bill</string>
+    // ********************* Home Page Text ***********************
+    <string name="hmpg_txt">Which do you want to see??</string>
+    <string name="Constraint_layout">Constraint Layout</string>
+    <string name="Relative_layout">Relative Layout</string>
+    <string name="Linear_layout">Linear Layout</string>
+    <string name="Date_Time">Date-Time Picker</string>
+    <string name="Check_Box">Check Box</string>
+    <string name="Radio">Radio</string>
+    <string name="Card_View">Card View</string>
+    <string name="Spinner">Spinner</string>
+    <string name="Image_view">Image View</string>
+    <string name="Toggle_Button">Toggle</string>
+    <string name="Switch_Compat">SwitchCompat</string>
+    <string name="Grid_view">Grid View</string>
+    // ********************* Radio Text ***********************
+    <string name="male">Male</string>
+    <string name="Female">Female</string>
+    <string name="submit">Submit</string>
+    // ********************* Toggle Button text ***********************
+    <string name="wifi">Wifi</string>
+    <string name="bluetooth">Bluetooth</string>
+    // ********************* Gridview text ***********************
+    <string name="instagram">Instagram</string>
+    <string name="facebook">Facebook</string>
+    <string name="snapchat">Snapchat</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="linkdin">Linkdin</string>
+    <string name="twitter">Twitter</string>
+
 </resources>

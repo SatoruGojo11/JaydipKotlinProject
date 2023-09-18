@@ -8,7 +8,7 @@ import android.widget.Button
 import android.widget.DatePicker
 import android.widget.TextView
 import android.widget.TimePicker
-import com.example.firstkotlinproject.R
+import com.example.jaydipkotlinproject.R
 import java.util.Calendar
 
 class Date_Time_Picker_prac : AppCompatActivity(), DatePickerDialog.OnDateSetListener,

@@ -8,7 +8,7 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Spinner
 import android.widget.Toast
-import com.example.firstkotlinproject.R
+import com.example.jaydipkotlinproject.R
 
 class Spinner_prac : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

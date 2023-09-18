@@ -7,7 +7,7 @@ import android.widget.CheckBox
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
-import com.example.firstkotlinproject.R
+import com.example.jaydipkotlinproject.R
 import com.squareup.picasso.Picasso
 
 class Checkbox_prac : AppCompatActivity() {

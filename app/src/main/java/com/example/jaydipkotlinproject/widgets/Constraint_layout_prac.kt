@@ -8,7 +8,7 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
-import com.example.firstkotlinproject.R
+import com.example.jaydipkotlinproject.R
 
 class Constraint_layout_prac : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
