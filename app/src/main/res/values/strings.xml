@@ -31,6 +31,8 @@
     <string name="Toggle_Button">Toggle</string>
     <string name="Switch_Compat">SwitchCompat</string>
     <string name="Grid_view">Grid View</string>
+    <string name="List_view">List View</string>
+    <string name="widgetbutton">Widget</string>
     // ********************* Radio Text ***********************
     <string name="male">Male</string>
     <string name="Female">Female</string>
@@ -45,5 +47,8 @@
     <string name="whatsapp">Whatsapp</string>
     <string name="linkdin">Linkdin</string>
     <string name="twitter">Twitter</string>
+    // ********************* Listview text ***********************
+    <string name="description">This is Instagram</string>
+
 
 </resources>

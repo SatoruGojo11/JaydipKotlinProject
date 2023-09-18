@@ -13,7 +13,46 @@
         android:theme="@style/Theme.JaydipKotlinProject"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".HomepageListView.Home_page_content_view_manager"
+            android:exported="false" />
+        <activity
+            android:name=".widgets.List_view_prac"
+            android:exported="false" />
+        <activity
+            android:name=".widgets.List_View_Content_Manager"
+            android:exported="false" />
+        <activity
+            android:name=".HomepageListView.Home_Page_List_View"
+            android:exported="false" />
+        <activity
+            android:name=".widgets.Grid_View_Content"
+            android:exported="false" />
+        <activity
+            android:name=".widgets.Grid_View_prac"
+            android:exported="false" />
+        <activity
+            android:name=".widgets.Switch_Compat_prac"
+            android:exported="false" />
+        <activity
+            android:name=".widgets.Spinner_prac"
+            android:exported="false" />
+        <activity
+            android:name=".widgets.Toggle_prac"
+            android:exported="false" />
+        <activity
+            android:name=".widgets.Image_View_prac"
+            android:exported="false" />
+        <activity
+            android:name=".widgets.Card_View_prac"
+            android:exported="false" />
+        <activity
+            android:name=".widgets.Radio_prac"
+            android:exported="false" />
+        <activity
+            android:name=".widgets.Date_Time_Picker_prac"
+            android:exported="false" />
+        <activity
+            android:name=".Home_Page"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +60,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".widgets.Checkbox_prac"
+            android:exported="false" />
+        <activity
+            android:name=".widgets.Relative_layout_prac"
+            android:exported="false" />
+        <activity
+            android:name=".widgets.linear_layout_prac"
+            android:exported="false" />
+        <activity
+            android:name=".widgets.Constraint_layout_prac"
+            android:exported="false" />
     </application>
 
 </manifest>

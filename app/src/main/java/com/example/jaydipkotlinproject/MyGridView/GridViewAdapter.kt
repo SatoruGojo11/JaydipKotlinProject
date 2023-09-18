@@ -1,4 +1,4 @@
-package com.example.firstkotlinproject
+package com.example.jaydipkotlinproject.MyGridView
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -11,7 +11,7 @@ import com.example.jaydipkotlinproject.R
 import com.squareup.picasso.Picasso
 
 //class MyAdapter(var context: Context, var itemname: Array<String>, var itemimages: Array<String>) :
-class MyAdapter(var context: Context, var itemname: List<String>, var itemimages: List<String>) :
+class GridViewAdapter(var context: Context, var itemname: List<String>, var itemimages: List<String>) :
     BaseAdapter() {
 
     var layoutInflater: LayoutInflater? = null

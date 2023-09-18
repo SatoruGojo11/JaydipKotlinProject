@@ -8,7 +8,7 @@ import com.example.firstkotlinproject.widgets.Card_View_prac
 import com.example.firstkotlinproject.widgets.Checkbox_prac
 import com.example.firstkotlinproject.widgets.Constraint_layout_prac
 import com.example.firstkotlinproject.widgets.Date_Time_Picker_prac
-import com.example.firstkotlinproject.widgets.Grid_View_prac
+import com.example.jaydipkotlinproject.MyGridView.Grid_View_prac
 import com.example.firstkotlinproject.widgets.Image_View_prac
 import com.example.firstkotlinproject.widgets.Radio_prac
 import com.example.firstkotlinproject.widgets.Relative_layout_prac

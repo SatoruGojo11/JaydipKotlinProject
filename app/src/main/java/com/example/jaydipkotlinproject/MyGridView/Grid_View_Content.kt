@@ -1,4 +1,4 @@
-package com.example.firstkotlinproject.widgets
+package com.example.jaydipkotlinproject.MyGridView
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
