@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">First Kotlin Project</string>
+    <string name="app_name">Jaydip Kotlin Project</string>
     <string name="app_bar">App Bar</string>
     <string name="empty"> </string>
     <string name="Username">User name</string>
@@ -18,7 +18,7 @@
     <string name="billamount">Your Total Bill Amount is :- 0</string>
     <string name="billbtn">Bill</string>
     // ********************* Home Page Text ***********************
-    <string name="hmpg_txt">Which do you want to see??</string>
+    <string name="hmpg_txt">What do you want to see??</string>
     <string name="Constraint_layout">Constraint Layout</string>
     <string name="Relative_layout">Relative Layout</string>
     <string name="Linear_layout">Linear Layout</string>

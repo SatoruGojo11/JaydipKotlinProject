@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import android.widget.ToggleButton
-import androidx.appcompat.widget.SwitchCompat
 import com.example.jaydipkotlinproject.R
 
 class Toggle_prac : AppCompatActivity() {

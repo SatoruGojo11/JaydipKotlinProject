@@ -32,13 +32,6 @@ class HomepageListviewAdapter(var context: Context, var HomepagedataList: List<H
                 R.layout.activity_home_page_content_view_manager, p2, false)
         }
 
-        val widgetButton : Button? = homepageview?.findViewById(R.id.Home_page_btn)
-
-        widgetButton?.setOnClickListener {
-
-//            intent = Intent(p2,HomepagedataList[p0].activityclass)
-
-        }
         return homepageview!!
     }
 }
