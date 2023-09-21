@@ -91,9 +91,9 @@ class Home_Page : AppCompatActivity() {
             startActivity(intent)
         }
 
-        gridview.setOnClickListener {
-            intent = Intent(this, Grid_View_prac::class.java)
-            startActivity(intent)
-        }
+//        gridview.setOnClickListener {
+//            intent = Intent(this, Grid_View_prac::class.java)
+//            startActivity(intent)
+//        }
     }
 }

@@ -29,8 +29,10 @@ class HomepageListviewAdapter(var context: Context, var HomepagedataList: List<H
 
         if (homepageview == null) {
             homepageview = LayoutInflater.from(context).inflate(
-                R.layout.activity_home_page_content_view_manager, p2, false)
+                R.layout.activity_home_page_content_view_manager, p2, false
+            )
         }
+
 
         return homepageview!!
     }
