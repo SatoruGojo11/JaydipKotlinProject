@@ -7,11 +7,12 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.Button
+import android.widget.Toast
 import com.example.jaydipkotlinproject.R
 
 class HomepageListviewAdapter(var context: Context, var HomepagedataList: List<HomepageData>) :
     BaseAdapter() {
-    override fun getCount(): Int {
+    override fun getCount(): Int {//ok aama badhe widget aave 6e
         return HomepagedataList.size
     }
 
@@ -33,7 +34,17 @@ class HomepageListviewAdapter(var context: Context, var HomepagedataList: List<H
             )
         }
 
+        val btnname: Button = homepageview!!.findViewById(R.id.Home_page_btn)
 
-        return homepageview!!
+        btnname.text = HomepagedataList[p0].widgetname
+
+        btnname.setOnClickListener {
+            Toast.makeText(
+                context,
+                HomepagedataList[p0].widgetname + " Clicked",
+                Toast.LENGTH_SHORT
+            ).show()
+        }
+        return homepageview
     }
 }

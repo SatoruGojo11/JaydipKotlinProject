@@ -49,6 +49,11 @@
     <string name="twitter">Twitter</string>
     // ********************* Listview text ***********************
     <string name="description">This is Instagram</string>
+    // ********************* Seek Bar text ***********************
+    <string name="seekbartxt">Progress</string>
+    // ********************* Share text ***********************
+    <string name="sharetextfield">Enter any text</string>
+    <string name="sharebtn">Share</string>
 
 
 </resources>
