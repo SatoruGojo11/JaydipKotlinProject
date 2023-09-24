@@ -14,8 +14,7 @@ class Share_Image_prac : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_share_image_prac)
-
-        val shareImage : ImageView = findViewById(R.id.shareImage)
+        
         val imgsharebtn : Button = findViewById(R.id.imgsharebtn)
 
         imgsharebtn.setOnClickListener {
